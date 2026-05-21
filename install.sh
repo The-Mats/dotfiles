@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# 1. Install Oh My Zsh
+# 1. Install ZSH and Oh My Zsh
+sudo apt-get update && sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # 2. Clone specific plugins and themes
